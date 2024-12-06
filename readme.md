@@ -1,7 +1,8 @@
 # 🤖 DocuBot: PDF Question-Answering Chatbot using RAG
 
 DocuBot is a PDF-based Question-Answering (QA) chatbot built using **Retrieval-Augmented Generation (RAG)**. This chatbot allows users to upload PDF documents and interact with them to retrieve answers to their questions based on the content of the documents. It uses **LangChain** and **HuggingFace** models to process the documents and provide relevant answers.
-
+*  ***Web App link: [pdf-question-answering-chatbot-wassim-hamra.streamlit.app](https://pdf-question-answering-chatbot-wassim-hamra.streamlit.app/)***
+* **⚠️ Wake the Streamlit Application if it's sleeping**
 ## Features
 
 - **Upload multiple PDF files**: Users can upload multiple PDF files to interact with.

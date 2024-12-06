@@ -2,5 +2,5 @@
 base="light"
 primaryColor="#ff3e00"
 
-[ui]
-compact=false
+[layout]
+wide = true

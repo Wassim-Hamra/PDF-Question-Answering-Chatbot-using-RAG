@@ -184,7 +184,7 @@ if uploaded_files:
             input_placeholder.empty()
             session_placeholder.empty()
             st.session_state.user_prompt = True
-            user_prompt = st.text_input('',
+            user_prompt = st.text_input('Input:',
                                         disabled=False,
                                         placeholder="Enter a question related to the provided documents:")
             st.session_state.chat_history.append({"role": "user", "content": user_prompt})

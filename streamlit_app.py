@@ -88,6 +88,11 @@ def message_func(content, is_user=False):
 )
 
 # App
+st.set_page_config(
+    page_title="DocuBot",
+    page_icon="🤖",
+    layout="wide"
+)
 # Sessions
 if 'store' not in st.session_state:
     st.session_state.store = {}

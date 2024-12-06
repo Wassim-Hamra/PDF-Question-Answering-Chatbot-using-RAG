@@ -117,6 +117,9 @@ gradient_text_html = """
         -webkit-text-fill-color: transparent;
         display: inline;
         font-size: 3em;
+        text-align: center;
+        width: 100%;
+        display: block;
     }
     </style>
     <div class="gradient-text">DocuBot🤖</div><br>

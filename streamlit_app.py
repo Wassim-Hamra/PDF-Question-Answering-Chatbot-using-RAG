@@ -184,9 +184,9 @@ if uploaded_files:
             input_placeholder.empty()
             session_placeholder.empty()
             st.session_state.user_prompt = True
-            user_prompt = st.text_input('Enter a question related to the provided documents:',
+            user_prompt = st.text_input('',
                                         disabled=False,
-                                        placeholder="What's your question ?")
+                                        placeholder="Enter a question related to the provided documents:")
             st.session_state.chat_history.append({"role": "user", "content": user_prompt})
         except Exception as e:
             st.sidebar.write(f"⚠️ Error embedding documents: \n\n {e}")

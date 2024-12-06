@@ -86,6 +86,7 @@ def message_func(content, is_user=False):
     """,
     unsafe_allow_html=True
 )
+
 # App
 st.set_page_config(
     page_title="DocuBot",

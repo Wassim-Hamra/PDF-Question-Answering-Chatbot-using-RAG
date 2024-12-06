@@ -1,4 +1,5 @@
 [theme]
 base="light"
 primaryColor="#ff3e00"
+[ui]
 compact = false

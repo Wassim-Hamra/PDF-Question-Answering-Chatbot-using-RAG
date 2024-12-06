@@ -1,4 +1,4 @@
-# DocuBot: PDF Question-Answering Chatbot using RAG
+# 🤖 DocuBot: PDF Question-Answering Chatbot using RAG
 
 DocuBot is a PDF-based Question-Answering (QA) chatbot built using **Retrieval-Augmented Generation (RAG)**. This chatbot allows users to upload PDF documents and interact with them to retrieve answers to their questions based on the content of the documents. It uses **LangChain** and **HuggingFace** models to process the documents and provide relevant answers.
 

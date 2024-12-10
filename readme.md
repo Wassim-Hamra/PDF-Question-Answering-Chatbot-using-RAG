@@ -46,8 +46,8 @@ DocuBot is a PDF-based Question-Answering (QA) chatbot built using **Retrieval-A
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/your-repo/DocuBot
-   cd DocuBot
+   git clone https://github.com/Wassim-Hamra/PDF-Question-Answering-Chatbot-using-RAG
+   cd PDF-Question-Answering-Chatbot-using-RAG
 2. **Set up a virtual environment:**
 
    ```bash
@@ -61,11 +61,6 @@ DocuBot is a PDF-based Question-Answering (QA) chatbot built using **Retrieval-A
 
    ```bash
    GROQ_API_KEY=your_groq_api_key
-   LANGCHAIN_TRACING_V2=true
-   LANGCHAIN_ENDPOINT=your_langchain_endpoint
-   LANGCHAIN_API_KEY=your_langchain_api_key
-   LANGCHAIN_PROJECT=your_langchain_project
-   HF_TOKEN=your_huggingface_token
 5. **Run the Streamlit app:**
    ```bash
    streamlit run app.py
